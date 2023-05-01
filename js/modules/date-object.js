@@ -1,3 +1,4 @@
+
 export default function initDateObject() {
   const funcionamento = document.querySelector("[data-semana]");
   const diasSemana = funcionamento.dataset.semana.split(",").map(Number);
